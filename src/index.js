@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import BasicExample from './examples/BasicExample.js';
-import ParamsExample from './examples/ParamsExample.js';
-// import AuthExample
+//import BasicExample from './examples/BasicExample.js';
+//import ParamsExample from './examples/ParamsExample.js';
+import AuthExample from './examples/AuthExample.js';
 // import CustomLinkExample
 // import PreventingTransitionsExample
 // import NoMachExample
@@ -17,6 +17,7 @@ import ParamsExample from './examples/ParamsExample.js';
 import registerServiceWorker from './registerServiceWorker';
 
 //ReactDOM.render(<BasicExample />, document.getElementById('BasicExample'));
-ReactDOM.render(<ParamsExample />, document.getElementById('ParamsExample'));
+//ReactDOM.render(<ParamsExample />, document.getElementById('ParamsExample'));
+ReactDOM.render(<AuthExample />, document.getElementById('AuthExample'));
 
 registerServiceWorker();

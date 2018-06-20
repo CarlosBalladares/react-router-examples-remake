@@ -6,7 +6,6 @@ import {
 } from 'react-router-dom';
 
 //This Example shows how you can use urls to send parameters
-
 function ParamsExample(){
   return(
     <Router>
@@ -31,8 +30,6 @@ function ParamsExample(){
         <Route exact path="/:id" component={Child}/>
         <Route path="/order/:direction(asc|desc)" component={ComponentWithRegex}/>
         <Route path="/:id/*" component={ComponentMSD}/>
-
-
       </div>
     </Router>
   );
@@ -56,8 +53,10 @@ function ComponentWithRegex({match}){
 /*
   This component shows how to match arbitrary number of subdirectories
   This is not in the original website with the examples but is a
-  test, React Router uses https://www.npmjs.com/package/path-to-regexp
-  For matching strings to paths
+  small extension.
+  React Router uses https://www.npmjs.com/package/path-to-regexp
+  for matching strings to paths
+  MSD stands for multiple subdirectories
 */
 function ComponentMSD({match}){
   let params = match.url.split('/');
