@@ -26,7 +26,7 @@ function OldSchoolMenuLink({label, to, activeOnlyWhenExact}){
       path={to}
       exact = {activeOnlyWhenExact}
       children = {({match})=>(
-        <div className="">
+        <div className={match ? "active" : ""}>
           {match? "> ": ""}
           <Link to={to}>{label}</Link>
         </div>
