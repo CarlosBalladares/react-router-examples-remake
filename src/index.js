@@ -6,8 +6,8 @@ import './index.css';
 //import AuthExample from './examples/AuthExample.js';
 // import CustomLinkExample from'./examples/CustomLinkExample.js';
 //import PreventingTransitionsExample from './examples/PreventingTransitionsExample.js';
-import NoMatchExample from './examples/NoMatchExample.js';
-// import RecursiveExample
+//import NoMatchExample from './examples/NoMatchExample.js';
+import RecursiveExample from './examples/RecursiveExample.js';
 // import SidebarExample
 // import AnimationExample
 // import AmbiguousExample
@@ -25,7 +25,11 @@ import registerServiceWorker from './registerServiceWorker';
 //   document.getElementById('PreventingTransitionsExample')
 // );
 
-ReactDOM.render(<NoMatchExample />, document.getElementById('NoMatchExample'));
+//ReactDOM.render(<NoMatchExample />, document.getElementById('NoMatchExample'));
+ReactDOM.render(
+  <RecursiveExample />,
+  document.getElementById('RecursiveExample')
+);
 
 
 registerServiceWorker();
