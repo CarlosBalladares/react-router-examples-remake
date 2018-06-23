@@ -29,7 +29,7 @@ const routes=[
 function SidebarExample(){
   return(
     <Router>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: 'flex' }}>
         {/*----- Sidebar -----*/}
         <div style={{
             padding:'10px',
