@@ -9,8 +9,8 @@ import './index.css';
 //import NoMatchExample from './examples/NoMatchExample.js';
 //import RecursiveExample from './examples/RecursiveExample.js';
 //import SidebarExample from './examples/SidebarExample.js';
-import AnimationExample from './examples/AnimationExample.js';
-// import AmbiguousExample
+//import AnimationExample from './examples/AnimationExample.js';
+import AmbiguousExample from './examples/AmbiguousExample.js';
 // import RouteConfigExample
 // import ModalGalleryExample
 // import StaticRouterExample
@@ -33,9 +33,16 @@ import registerServiceWorker from './registerServiceWorker';
 
 //ReactDOM.render(<SidebarExample />, document.getElementById('SidebarExample'));
 
+// ReactDOM.render(
+//   <AnimationExample />,
+//   document.getElementById('AnimationExample')
+// );
+
 ReactDOM.render(
-  <AnimationExample />,
-  document.getElementById('AnimationExample')
+  <AmbiguousExample />,
+  document.getElementById('AmbiguousExample')
 );
+
+
 
 registerServiceWorker();
