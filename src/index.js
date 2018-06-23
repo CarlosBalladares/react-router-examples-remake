@@ -7,8 +7,8 @@ import './index.css';
 // import CustomLinkExample from'./examples/CustomLinkExample.js';
 //import PreventingTransitionsExample from './examples/PreventingTransitionsExample.js';
 //import NoMatchExample from './examples/NoMatchExample.js';
-import RecursiveExample from './examples/RecursiveExample.js';
-// import SidebarExample
+//import RecursiveExample from './examples/RecursiveExample.js';
+import SidebarExample from './examples/SidebarExample.js';
 // import AnimationExample
 // import AmbiguousExample
 // import RouteConfigExample
@@ -26,10 +26,12 @@ import registerServiceWorker from './registerServiceWorker';
 // );
 
 //ReactDOM.render(<NoMatchExample />, document.getElementById('NoMatchExample'));
-ReactDOM.render(
-  <RecursiveExample />,
-  document.getElementById('RecursiveExample')
-);
+// ReactDOM.render(
+//   <RecursiveExample />,
+//   document.getElementById('RecursiveExample')
+// );
+
+ReactDOM.render(<SidebarExample />, document.getElementById('SidebarExample'));
 
 
 registerServiceWorker();
