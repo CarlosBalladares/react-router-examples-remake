@@ -8,8 +8,8 @@ import './index.css';
 //import PreventingTransitionsExample from './examples/PreventingTransitionsExample.js';
 //import NoMatchExample from './examples/NoMatchExample.js';
 //import RecursiveExample from './examples/RecursiveExample.js';
-import SidebarExample from './examples/SidebarExample.js';
-// import AnimationExample
+//import SidebarExample from './examples/SidebarExample.js';
+import AnimationExample from './examples/AnimationExample.js';
 // import AmbiguousExample
 // import RouteConfigExample
 // import ModalGalleryExample
@@ -31,7 +31,11 @@ import registerServiceWorker from './registerServiceWorker';
 //   document.getElementById('RecursiveExample')
 // );
 
-ReactDOM.render(<SidebarExample />, document.getElementById('SidebarExample'));
+//ReactDOM.render(<SidebarExample />, document.getElementById('SidebarExample'));
 
+ReactDOM.render(
+  <AnimationExample />,
+  document.getElementById('AnimationExample')
+);
 
 registerServiceWorker();
