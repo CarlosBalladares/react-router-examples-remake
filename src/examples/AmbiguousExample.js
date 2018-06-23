@@ -16,7 +16,7 @@ function AmbiguousExample(){
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/Company">Company</Link>
+            <Link to="/company">Company</Link>
           </li>
           <li>
             <Link to="/kim">Kim</Link>
