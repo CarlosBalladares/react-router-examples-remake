@@ -12,9 +12,8 @@ function AnimationExample(){
   return (
     <Router>
       <Route
-        render={({location})=>{console.log(location.key
-        );return (
-          //Self rerirec
+        render={({location})=>(
+    
           <div style={styles.fill}>
             {/*----- Self redirect route -----*/}
             <Route
@@ -41,13 +40,10 @@ function AnimationExample(){
                     <Route component={NotFoundComponent}/>
                   </Switch>
                 </CSSTransition>
-
               </TransitionGroup>
             </div>
-
           </div>
-
-        );}}
+        )}
       />
     </Router>
   );
