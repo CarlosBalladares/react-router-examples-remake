@@ -10,9 +10,9 @@ import './index.css';
 //import RecursiveExample from './examples/RecursiveExample.js';
 //import SidebarExample from './examples/SidebarExample.js';
 //import AnimationExample from './examples/AnimationExample.js';
-//import AmbiguousExample from './examples/AmbiguousExample.js';
-import RouteConfigExample from './examples/RouteConfigExample.js';
-// import ModalGalleryExample
+// import AmbiguousExample from './examples/AmbiguousExample.js';
+//import RouteConfigExample from './examples/RouteConfigExample.js';
+import ModalGalleryExample from './examples/ModalGalleryExample.js';
 // import StaticRouterExample
 import registerServiceWorker from './registerServiceWorker';
 
@@ -38,9 +38,19 @@ import registerServiceWorker from './registerServiceWorker';
 //   document.getElementById('AnimationExample')
 // );
 
+// ReactDOM.render(
+//   <RouteConfigExample/>,
+//   document.getElementById('RouteConfigExample')
+// );
+
+// ReactDOM.render(
+//   <AmbiguousExample/>,
+//   document.getElementById('AmbiguousExample')
+// );
+
 ReactDOM.render(
-  <RouteConfigExample/>,
-  document.getElementById('RouteConfigExample')
+  <ModalGalleryExample/>,
+  document.getElementById('ModalGalleryExample')
 );
 
 
