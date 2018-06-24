@@ -10,8 +10,8 @@ import './index.css';
 //import RecursiveExample from './examples/RecursiveExample.js';
 //import SidebarExample from './examples/SidebarExample.js';
 //import AnimationExample from './examples/AnimationExample.js';
-import AmbiguousExample from './examples/AmbiguousExample.js';
-// import RouteConfigExample
+//import AmbiguousExample from './examples/AmbiguousExample.js';
+import RouteConfigExample from './examples/RouteConfigExample.js';
 // import ModalGalleryExample
 // import StaticRouterExample
 import registerServiceWorker from './registerServiceWorker';
@@ -39,10 +39,9 @@ import registerServiceWorker from './registerServiceWorker';
 // );
 
 ReactDOM.render(
-  <AmbiguousExample />,
-  document.getElementById('AmbiguousExample')
+  <RouteConfigExample/>,
+  document.getElementById('RouteConfigExample')
 );
-
 
 
 registerServiceWorker();
