@@ -12,8 +12,8 @@ import './index.css';
 //import AnimationExample from './examples/AnimationExample.js';
 // import AmbiguousExample from './examples/AmbiguousExample.js';
 //import RouteConfigExample from './examples/RouteConfigExample.js';
-import ModalGalleryExample from './examples/ModalGalleryExample.js';
-// import StaticRouterExample
+//import ModalGalleryExample from './examples/ModalGalleryExample.js';
+import StaticRouterExample from './examples/StaticRouterExample.js';
 import registerServiceWorker from './registerServiceWorker';
 
 //ReactDOM.render(<BasicExample />, document.getElementById('BasicExample'));
@@ -48,9 +48,14 @@ import registerServiceWorker from './registerServiceWorker';
 //   document.getElementById('AmbiguousExample')
 // );
 
+// ReactDOM.render(
+//   <ModalGalleryExample/>,
+//   document.getElementById('ModalGalleryExample')
+// );
+
 ReactDOM.render(
-  <ModalGalleryExample/>,
-  document.getElementById('ModalGalleryExample')
+  <StaticRouterExample/>,
+  document.getElementById('StaticRouterExample')
 );
 
 

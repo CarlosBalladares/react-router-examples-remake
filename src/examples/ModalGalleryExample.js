@@ -22,7 +22,6 @@ class ModalSwitch extends React.Component{
     }
   }
   render(){
-
     const { location } = this.props;
     const isModal = !!(
       location.state &&
@@ -36,6 +35,7 @@ class ModalSwitch extends React.Component{
     // console.log(location);
 
     // location takes you to a specific path
+    console.log(isModal);
     return (
       <div>
       <Switch location={isModal ? this.previousLocation : location}>
@@ -180,7 +180,10 @@ function Modal({match, history}){
           <button type="button" onClick={back}>
             close
           </button>
-
+          <Link to={{
+              pathname:"/gallery",
+              state:{modal:false}
+          }}>g</Link>
         </div>
     </div>
   );
